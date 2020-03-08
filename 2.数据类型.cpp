@@ -15,6 +15,9 @@
  * 			字符		char		1
  * 		
  *   复合类型数据
+ *   	结构体
+ *   	枚举
+ *   	公用体
  */
 
 # include <stdio.h>
@@ -24,4 +27,6 @@ int main()
 	int i = 10;
 
 	printf("%d\n",  i);
+
+	return 0;
 }
