@@ -20,8 +20,12 @@
 int main()
 {
     int i;
+    char ch;
 
     printf("请输入一个数字：");
+
+    while ((ch=getchar())!='\n')
+        continue;
 
     scanf("%d",&i);
 
