@@ -12,6 +12,23 @@
  *		2、i <= number;		//如果判断条件为真，则跳出循环，结束
  *		3、代码快
  *		4、++i
+ *
+ *
+ * while 与 do...while
+ * 	while 格式
+ *
+ * 	while(判断条件)			//条件成立，则执行代码段，条件不成立，结束循环
+ * 	{
+ * 		代码段
+ * 	}
+ *
+ * 	do...while 格式
+ *
+ * 	do 						//不管条件是否成立，都先执行一次代码段，之后在判断条件，
+ * 	{						//成立则继续执行代码段，不成立则结束循环
+ * 		代码段
+ * 	}while(判断条件)
+ * 
  */
 
 # include <stdio.h>
@@ -31,12 +48,28 @@ int main()
 	    for (int j = 1; j <= i; ++j) {
 
 	        printf("%d * %d = %d \t",i,j,(i*j));
-	        
+
 	    }
 
 	    printf("\n");
 	    
 	}
+
+    int i = 1;
+
+    while (i <= 10)
+    {
+        printf("%d\n",i);
+        ++i;
+    }
+
+    int j = 1;
+
+    do 
+    {
+        printf("%d\n", j);
+        ++j;
+    } while (j <= 10);
 	
 	return 0;
 }
