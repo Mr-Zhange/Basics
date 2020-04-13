@@ -22,7 +22,6 @@
  * 			default:
  * 				代码段
  * 		}
- * 		
  */
 
 # include <stdio.h>
@@ -33,15 +32,15 @@ int main() {
     if (i >= 95)
     {
         printf("你的成绩是：A+\n");
-    } 
+    }
     else if (i >= 90 && i < 95)
     {
         printf("你的成绩是：A\n");
-    } 
+    }
     else if (i >= 60 && i < 90)
     {
         printf("你的成绩是：B\n");
-    } 
+    }
     else
     {
         printf("你的成绩是：C\n");

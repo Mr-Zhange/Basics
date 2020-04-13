@@ -10,7 +10,7 @@
  * 		int len = sizeof(arry) / sizeof(arry[0]) - 1;
  * 		数组占内存总空间除以单个元素占内存空间大小，即等于元素个数
  * 		因为数组下标是从0开始的，及 -1
- */ 
+ */
 
 # include <stdio.h>
 

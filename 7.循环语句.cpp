@@ -28,7 +28,6 @@
  * 	{						//成立则继续执行代码段，不成立则结束循环
  * 		代码段
  * 	}while(判断条件)
- * 
  */
 
 # include <stdio.h>
@@ -52,7 +51,7 @@ int main()
 	    }
 
 	    printf("\n");
-	    
+
 	}
 
     int i = 1;
@@ -70,6 +69,6 @@ int main()
         printf("%d\n", j);
         ++j;
     } while (j <= 10);
-	
+
 	return 0;
 }
