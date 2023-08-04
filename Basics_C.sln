@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002_分支语句", "002_分
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003_Printf与Scanf", "003_Printf与Scanf\003_Printf与Scanf.vcxproj", "{F9EB49CE-5983-4ABD-94DB-C7DD981B26E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004_数组", "004_数组\004_数组.vcxproj", "{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F9EB49CE-5983-4ABD-94DB-C7DD981B26E8}.Release|x64.Build.0 = Release|x64
 		{F9EB49CE-5983-4ABD-94DB-C7DD981B26E8}.Release|x86.ActiveCfg = Release|Win32
 		{F9EB49CE-5983-4ABD-94DB-C7DD981B26E8}.Release|x86.Build.0 = Release|Win32
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Debug|x64.ActiveCfg = Debug|x64
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Debug|x64.Build.0 = Debug|x64
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Debug|x86.ActiveCfg = Debug|Win32
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Debug|x86.Build.0 = Debug|Win32
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Release|x64.ActiveCfg = Release|x64
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Release|x64.Build.0 = Release|x64
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Release|x86.ActiveCfg = Release|Win32
+		{19E8DD68-E009-4BC0-ADAF-DFABDD47090A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
